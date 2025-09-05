@@ -45,6 +45,7 @@ dependencies {
 	testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
 	testImplementation("org.assertj:assertj-core:3.24.2")
     implementation(libs.retrofit)
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0")
 }
 
 tasks.withType<Test> {
